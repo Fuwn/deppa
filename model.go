@@ -217,8 +217,10 @@ func (model applicationModel) View() string {
 func (model applicationModel) viewBrowsing() string {
 	var builder strings.Builder
 
-	builder.WriteString(accentStyle.Render("\n  deppa"))
-	builder.WriteString(dimStyle.Render(fmt.Sprintf(" — %d directories found\n\n", len(model.dependencies))))
+	builder.WriteString("\n  ")
+	builder.WriteString(accentStyle.Render("deppa"))
+	builder.WriteString(dimStyle.Render(fmt.Sprintf(" — %d directories found", len(model.dependencies))))
+	builder.WriteString("\n\n")
 
 	visibleHeight := model.terminalHeight - 6
 
