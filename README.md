@@ -7,6 +7,10 @@ Deppa finds and deletes dependency and build output directories (`node_modules`,
 
 Deppa is written in [Go](https://go.dev) and uses [Bubble Tea](https://github.com/charmbracelet/bubbletea) for its terminal interface.
 
+<p align="center">
+  <img src="./assets/example_screenshot.png" alt="Example Screenshot">
+</p>
+
 ## Usage
 
 ```bash
