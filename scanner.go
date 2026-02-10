@@ -18,6 +18,7 @@ var knownDependencyDirectories = map[string]bool{
 	"venv":         true,
 	".gradle":      true,
 	"Pods":         true,
+	".zig-cache":   true,
 	"zig-cache":    true,
 	"zig-out":      true,
 	"_build":       true,

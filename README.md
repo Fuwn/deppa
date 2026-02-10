@@ -41,7 +41,7 @@ task install
 
 ## Detected Directories
 
-`node_modules`, `target`, `.next`, `.nuxt`, `__pycache__`, `.venv`, `venv`, `.gradle`, `Pods`, `zig-cache`, `zig-out`, `_build`, `.dart_tool`
+`node_modules`, `target`, `.next`, `.nuxt`, `__pycache__`, `.venv`, `venv`, `.gradle`, `Pods`, `.zig-cache`, `zig-cache`, `zig-out`, `_build`, `.dart_tool`
 
 Want to add a new detected or ignored directory? Open a PR to [`scanner.go`](https://github.com/Fuwn/deppa/blob/main/scanner.go) after testing.
 
