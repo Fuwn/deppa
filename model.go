@@ -250,7 +250,7 @@ func (model applicationModel) viewBrowsing() string {
 			checkbox = accentStyle.Render("[x]")
 		}
 
-		formattedSize := sizeStyle.Render(fmt.Sprintf("%8s", formatBytes(dependency.SizeBytes)))
+		formattedSize := sizeStyle.Render(fmt.Sprintf("%9s", formatBytes(dependency.SizeBytes)))
 		formattedType := typeStyle.Render(fmt.Sprintf("%-14s", dependency.DirectoryType))
 
 		builder.WriteString(fmt.Sprintf(
